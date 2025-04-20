@@ -1,0 +1,20 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+<body>
+<script>
+    function solution(a, b, c) {
+        const tot = a + b + c
+        let answer
+        const long = Math.max(a, b, c)
+        if (tot > 2 * long) answer = 'YES'
+        else answer = 'NO'
+        return answer
+    }
+
+    console.log(solution(3, 2, 1));
+</script>
+</body>
+</html>
