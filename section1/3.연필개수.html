@@ -1,0 +1,17 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+<body>
+<script>
+    function solution(n) {
+        let das = n / 12
+        if (das > ~~das) das = ~~das + 1
+        return das;
+    }
+
+    console.log(solution(178));
+</script>
+</body>
+</html>
